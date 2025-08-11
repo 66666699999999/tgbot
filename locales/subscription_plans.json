@@ -1,0 +1,6 @@
+{
+    "sub_1m": {"title": "1个月 - 168 USDT", "amount": 168, "duration_days": 30},
+    "sub_3m": {"title": "3个月 - 368 USDT", "amount": 368, "duration_days": 90},
+    "sub_9m": {"title": "9个月 - 555 USDT", "amount": 555, "duration_days": 270},
+    "sub_12m": {"title": "12个月 - 888 USDT", "amount": 888, "duration_days": 365}
+}

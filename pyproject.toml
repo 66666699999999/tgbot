@@ -1,0 +1,43 @@
+[project]
+name = "telegram-bot"
+version = "0.1.0"
+description = "A Telegram 群组管理自动化机器人"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+  "telethon>=1.30.0",
+  "apscheduler>=3.10.0",
+  "sqlalchemy>=2.0.0",
+  "aiofiles>=23.1.0",
+  "python-telegram-bot>=21.6",
+  "fastapi>=0.115.12",
+  "httpx>=0.28.1",
+  "isort>=5.13.2",
+  "ruff>=0.11.9",
+  "bip-utils>=2.9.3",
+  "tronpy>=0.5.0",
+  "aiosqlite>=0.20.0",
+  "datetime>=5.5",
+  "pytz>=2025.2",
+  "pysqlite3-binary>=0.5.4",
+  "asyncpg>=0.30.0",
+  "aiomysql>=0.2.0",
+]
+
+[project.scripts]
+telegram-bot = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["telegram_bot"]
+

@@ -1,0 +1,84 @@
+{
+  "zh": {
+    "general": {
+      "welcome": "🤩 欢迎使用本机器人\nWelcome to use this robot\n\n👉 切换语言请前往Menu\nTo switch the language, please go to the Menu",
+      "language_set": "✅ 语言已切换为中文",
+      "choose_language": "🤔 请选择语言"
+    },
+    "menu": {
+      "subscribe": "📦 订阅",
+      "account": "📄 我的账户",
+      "join_group": "🔗 加入订阅群",
+      "support": "📞 客服"
+    },
+    "subscribe": {
+      "choose_plan": "请选择订阅套餐 👇",
+      "plans": {
+        "1m": "1个月 - 168 USDT",
+        "3m": "3个月 - 368 USDT",
+        "12m": "12个月 - 888 USDT"
+      },
+      "payment_method": "请选择支付方式 👇",
+      "payment_detail": "⚠️ 支付说明：\n\n1. 支付后将 *支付完成截图* 和 *交易 ID* 发送给客服等待客服开通会员\n2. 支付后请点击下方我已支付完成，否则视为无效\n3. 支付到错误地址、错误币种概不负责\n4. 本机器只会对到期会员进行提醒，不会要求会员做任何事\n\n💵 金额：{amount}\n\n🌐 网络：{network}\n\n🏦 支付地址（点击即可复制）：\n`{address}`\n\n🔢 交易 ID（点击即可复制）:\n`{uuid}`",
+      "payment_info": "我已完成支付",
+      "success": "✅ 支付成功，感谢您的订阅！",
+      "fail": "❌ 支付失败，请稍后重试。",
+      "error": {
+        "no_invoice": "未找到付款信息，请重新选择套餐。",
+        "no_plan": "未找到对应套餐，请重新选择。"
+      }
+    },
+    "account": {
+      "status": "👤 账号ID: {user_id}\n📝 购买日期：{signup_date}\n⌛ 截至日期：{sub_end_date}",
+      "no_subscription": "您尚未订阅",
+      "active_until": "您的订阅有效期至：{date}"
+    },
+    "group": {
+      "prompt": "您当前可以进入的频道/群组 👇"
+    },
+    "support": {
+      "contact": "请仅对重要和敏感的问题发送消息给客服，因为业务流量高，不相关的问题将不会回应\n@biquanjuhe"
+    }
+  },
+  "en": {
+    "general": {
+      "welcome": "🤩 Welcome to use this robot\n\n👉 To switch the language, please go to the Menu",
+      "language_set": "✅ Language switched to English",
+      "choose_language": "🤔 Please choose a language"
+    },
+    "menu": {
+      "subscribe": "📦 Subscribe",
+      "account": "📄 My Account",
+      "join_group": "🔗 Join Subscription Group",
+      "support": "📞 Support"
+    },
+    "subscribe": {
+      "choose_plan": "Please choose a subscription plan 👇",
+      "plans": {
+        "1m": "1 Month - 168 USDT",
+        "3m": "3 Months - 368 USDT",
+        "12m": "12 Months - 888 USDT"
+      },
+      "payment_method": "Please select a payment method 👇",
+      "payment_detail": "⚠️ Payment Instructions:\n\n1. After payment, send the *screenshot of payment* and *transaction ID* to the support for activation\n2. Please click the button below after payment, otherwise it will be considered invalid\n3. We are not responsible for payments sent to the wrong address or network\n4. This bot only reminds about subscription expiration and never asks members to do anything\n\n💵 Amount: {amount}\n\n🌐 Network: {network}\n\n🏦 Payment Address (click to copy):\n`{address}`\n\n🔢 Transaction ID (click to copy):\n`{uuid}`",
+      "payment_info": "I have completed the payment",
+      "success": "✅ Payment successful, thank you for your subscription!",
+      "fail": "❌ Payment failed, please try again later.",
+      "error": {
+        "no_invoice": "No payment info found, please reselect the plan.",
+        "no_plan": "No corresponding plan found, please choose again."
+      }
+    },
+    "account": {
+      "status": "👤 Account ID: {user_id}\n📝 Purchase Date: {signup_date}\n⌛ Expiry Date: {sub_end_date}",
+      "no_subscription": "You have not subscribed yet",
+      "active_until": "Your subscription is valid until: {date}"
+    },
+    "group": {
+      "prompt": "You can currently access the following channels/groups 👇"
+    },
+    "support": {
+      "contact": "Please only message support for important or sensitive issues. Due to high traffic, unrelated queries will not be answered.\n@biquanjuhe"
+    }
+  }
+}
