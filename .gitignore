@@ -14,3 +14,4 @@ logs/
 uv.lock
 *.session
 *.db
+nohup.out
